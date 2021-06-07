@@ -1,0 +1,7 @@
+Cod:
+
+$nomention
+$color[#FF0000]
+$description[<@$mentioned[1]> deu um beijo em <@$mentioned[2]> 😱💏]
+$argsCheck[>1; :x: Por favor meu caro MARCA ALGUÉM!!!!]
+$image[https://c.tenor.com/9IHLn02sU7MAAAAM/anime-beijo.gif]
