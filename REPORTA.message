@@ -1,0 +1,20 @@
+Cod:
+
+$nomention
+$title[warning Novo erro encontrado!] 
+$color[#FF0000] 
+$description[
+servidor:
+$serverName[$guildID]
+Autor da mensagem:
+$username
+Relatório:
+$message 
+] 
+$addTimestamp 
+$footerIcon[$authorAvatar] 
+$footer[Sistema de reportar!] 
+$thumbnail[$serverIcon]
+$dm[825508026978926643]
+$channelSendMessage[$channelID;🚫🚫🚫🚫 | <@$authorID> seu report foi enviado!] 
+$deletecommand
