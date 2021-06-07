@@ -1,0 +1,13 @@
+Variável: banco
+No: 0
+
+------------------------
+
+$nomention
+$title[Banco Da Cidade]
+$description[
+Saldo disponível :
+R$ $getUserVar[banco]
+]
+
+-----------------------
