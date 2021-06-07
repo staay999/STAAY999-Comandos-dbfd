@@ -1,0 +1,10 @@
+Variável: dinheiro
+No: 0
+
+Cod:
+
+$nomention
+$title[Carteira de $username]
+$description[
+:moneybag: Dinheiro : $getUserVar[dinheiro]
+]
