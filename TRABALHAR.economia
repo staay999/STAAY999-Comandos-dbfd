@@ -1,0 +1,19 @@
+Variável: dinheiro
+No: 0
+
+Code:
+
+--------------------------------------------------------------------
+
+$nomention
+$title[Trabalhando...]
+$color[#ff0000]
+$author[$username]
+$authorIcon[$authorAvatar]
+$description[
+Você trabalhou e ganhou $random[1000;5000]
+]
+$setUserVar[dinheiro;$sum[$getUserVar[dinheiro];$random[1000;5000]]]
+$cooldown[30s;Espere %time% para trabalhar novamente !]
+
+--------------------------------------------------------------------
