@@ -1,0 +1,16 @@
+Variável: dinheiro
+No: 0
+
+Variável: banco
+No: 0
+
+
+$nomention
+$cooldown[10s; Você acabou de sacar dinheiro! Espere mais um pouco]
+$argsCheck[>1;Não se esqueça de colocar uma quantia !]
+$onlyIf[$isNumber[$noMentionMessage[1]]==true; Não se esqueça de colocar uma quantia ! ]
+$onlyIf[$getUserVar[banco]>=$noMentionMessage[1]; Você não tem essa quantia meu caro ! ]
+
+$setUserVar[dinheiro; $sum[$getUserVar[dinheiro];$noMentionMessage[1]]] $setUserVar[banco;$sub[$getUserVar[banco]; $noMentionMessage[1]]]
+
+<@$authorID> Você sacou R$ $noMentionMessage[1] agora esta na sua carteira !
