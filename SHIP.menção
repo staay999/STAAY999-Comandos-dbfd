@@ -1,0 +1,13 @@
+Cod:
+
+$reply
+$nomention
+$argsCheck[2;:x:**Você deve mencionar duas pessoas!**]
+$description[💔 Hmmm, será que nós temos um novo casal aqui? :sparkling_heart:
+`$username[$mentioned[1]]`
+`$username[$mentioned[2]]`
+$randomText[(□□□□□) 0% 💕 vocês não dão certo. 😢;(□□□□□) 5% 💕 vocês não dão certo. 😢;(■□□□□) 10% 💕 as chances de da certo são muito poucas. 🙁;(■□□□□) 15% :two_hearts: as chances de da certo são muito poucas. 🙁;(■□□□□) 20% :two_hearts: as chances de da certo são muito poucas. 🙁;(■□□□□) 25% :two_hearts: as chances de da certo são muito poucas. 🙁;(■■□□□) 30% 💕 talvez não seja tão impossível assim. 😅;(■■□□□) 35% 💕 talvez não seja tão impossível assim. 😅;(■■□□□) 40% :two_hearts: talvez não seja tão impossível assim. 😅;(■■□□□) 45% :two_hearts: as possibilidades desse casal são muito boas. 🥰;(■■■□□) 50% 💕 as possibilidades desse casal são muito boas. 🥰;(■■■□□) 55% 💕 as possibilidades desse casal são muito boas. 🥰;(■■■□□) 60% 💕 as possibilidades desse casal são muito boas. 🥰;(■■■□□) 65% 💕 as possibilidades desse casal são muito boas. 🥰;(■■■□□) 70% 💕 as possibilidades desse casal são muito boas. 🥰;(■■■□□) 75% 💕 as possibilidades desse casal são muito boas. 🥰;(■■■■□) 80% 💕 que lindo casal. 😍;(■■■■□) 85% :two_hearts:;(■■■■□) 90% 💕 que lindo casal 😍;(■■■■□) 95% :two_hearts: que lindo casal 😍;(■■■■■) 100% 💕 esse é o casal perfeito! 😍❤]]
+$color[ffff00]
+$image[https://api.cool-img-api.ml/ship?user=$userAvatar[$mentioned[1]]&user2=$userAvatar[$mentioned[2]]]
+$addTimestamp
+$botTyping
