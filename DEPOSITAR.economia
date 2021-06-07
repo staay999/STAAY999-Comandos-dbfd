@@ -1,0 +1,16 @@
+Variável: banco
+No: o
+
+Variável: dinheiro
+No: 0
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+$nomention
+$cooldown[20s; Você acabou de depositar dinheiro ! espere um pouco ...]
+$argsCheck[>1;Digite um número para depositar ! ]
+$onlyIf[$isNumber[$noMentionMessage[1]]==true; Por favor , Digite em números ]
+$onlyIf[$getUserVar[dinheiro]>=$noMentionMessage[1];Você não tem essa quantia !] $setUserVar[dinheiro;$sub[$getUserVar[dinheiro]; $noMentionMessage[1]]] $setUserVar[banco; $sum[$getUserVar[banco];$noMentionMessage[1]]] 
+<@$authorID> Você depositou $noMentionMessage[1] na sua conta do banco !
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
